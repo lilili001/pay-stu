@@ -2,7 +2,7 @@
 require "vendor/autoload.php";
 
 //定义回调  付款成功或付款失败后的回调
-define('SITE_URL','http://localhost/paypal');
+define('SITE_URL','http://39.108.225.36');
 
 $paypal = new \PayPal\Rest\ApiContext(
     new \PayPal\Auth\OAuthTokenCredential(
